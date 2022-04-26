@@ -1,1 +1,0 @@
-import './heroes/app.js';
