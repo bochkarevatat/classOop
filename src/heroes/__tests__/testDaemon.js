@@ -1,12 +1,13 @@
-import Daemon from '../Daemon.js';
+import Daemon from '../Daemon';
+
 test('test show object type Daemon', () => {
-    const result = new Daemon('DaemonNew', 'Daemon')
-    expect(result).toEqual({
-        name: 'DaemonNew',
-        type: 'Daemon',
-        health: 100,
-        level: 1,
-        attack: 10,
-        defence: 40,
-    })
+  const result = new Daemon('DaemonNew', 'Daemon');
+  expect(result).toEqual({
+    name: 'DaemonNew',
+    type: 'Daemon',
+    health: 100,
+    level: 1,
+    attack: 10,
+    defence: 40,
+  });
 });

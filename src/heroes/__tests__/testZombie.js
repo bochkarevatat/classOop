@@ -1,9 +1,9 @@
-import Zombie from "../Zombie.js";
+import Zombie from '../Zombie';
 
 test('test show object type Zombie', () => {
-  const result = new Zombie('Zombie', 'Zombie');
+  const result = new Zombie('ZombieNew', 'Zombie');
   expect(result).toEqual({
-    name: 'Zombie',
+    name: 'ZombieNew',
     type: 'Zombie',
     health: 100,
     level: 1,

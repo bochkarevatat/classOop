@@ -1,12 +1,13 @@
-import Swordsman from '../Swordsman.js'
+import Swordsman from '../Swordsman';
+
 test('test show object type', () => {
-  const result = new Swordsman('Swordsman','Swordsman');
+  const result = new Swordsman('Swordsman', 'Swordsman');
   expect(result).toEqual({
-      name: 'Swordsman',
-      type: 'Swordsman',
-      health: 100,
-      level: 1,
-      attack: 40,
-      defence: 10,
-    }) 
+    name: 'Swordsman',
+    type: 'Swordsman',
+    health: 100,
+    level: 1,
+    attack: 40,
+    defence: 10,
   });
+});
